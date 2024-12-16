@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400&display=swap");
+
+.App {
+  text-align: center;
+}
+
+.TabList-center {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.section-19 {
+  margin-top: 70px;
+  border-bottom: 1px solid transparent;
+}
+
+.desktop-heading {
+  position: static;
+  height: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 192, 131, 0.1);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eafff7), to(#fff));
+  background-image: linear-gradient(180deg, #e8eef3, #fff);
+  font-family: Montserrat, sans-serif;
+  color: #073763;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: center;
+  text-transform: capitalize;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
+}
+
+  @media screen and (max-width: 576px) {
+    .desktop-heading {
+      font-size: 15px;
+    }
+  }
+
+
+.image-41 {
+  display: none;
+}
+.image-51 {
+  display: block;
+  width: 60%;
+  max-height: 50%;
+  max-width: 1200px;
+  min-height: 0px;
+  margin-top: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  text-align: center;
+}
+
+.w-container{margin-left:auto;margin-right:auto;max-width:940px}
+
+.div-block-44 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px none #000;
+  border-radius: 1px;
+}
+
+.text-block-18 {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.paragraph-2 {
+  display: block;
+  margin: 10px 0px;
+  line-height: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.quiz {
+  background-color: #104270;
+  width: fit-content;
+  min-height: 200px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-evenly;
+}
+.question-section {
+  width: 100%;
+  position: relative;
+  color: white;
+  font-weight: bold;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 28px;
+}
+
+.question-text {
+  margin: 50px;
+  font-weight: normal;
+}
+
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.button-quiz {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #252d4a;
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+
+.MuiPaper-rounded {
+  padding: 10px;
+}
+
